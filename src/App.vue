@@ -1,14 +1,12 @@
 <script lang='ts'>
-    import MainMenu from './components/MainMenu.vue'
     export default {
-       components: {
-        MainMenu
-       } 
+       mounted() {
+            this.$router.push("/menu")
+       }
     }
-
 </script>
 
 <template>
-    <MainMenu />
+    <RouterView/>
 </template>
 
