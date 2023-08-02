@@ -7,6 +7,13 @@
 </script>
 
 <template>
+
     <RouterView/>
 </template>
 
+<style> 
+    body {
+        background: black;
+        color: white;
+    }
+</style>
