@@ -5,7 +5,7 @@
             openChat() {
                 router.push('/chat')
             }
-        }
+        },
     }
 </script>
 
