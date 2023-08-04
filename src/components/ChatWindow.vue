@@ -43,8 +43,7 @@
         display: flex;
         height: 95%;
         min-height: 95vh;
-    }
-    
+    } 
 </style>
 
 

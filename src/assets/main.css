@@ -3,3 +3,18 @@
         background: gray;
         border: 3px solid lightgray;
     }
+    body {
+        background: black;
+        color: white;
+        font-family: Verdana, sans-serif;
+    }
+    .mainTitle{
+        text-align: center;
+        text-decoration-line: underline;
+    }
+
+    button{
+        color: white;
+        background: #2E4756;
+        border: 2px solid #9FA2B2;
+    }
