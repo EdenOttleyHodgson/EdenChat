@@ -2,7 +2,7 @@
     import MessageArea from '@/components/MessageArea.vue'
     import MessageInputBox from '@/components/MessageInputBox.vue'
     import CurrentUsersBox from '@/components/CurrentUsersBox.vue'
-    var username = localStorage.getItem("name")
+    var username: string | null;
     export default{
         data() {
     
@@ -19,6 +19,9 @@
                         .addMessage(username, msg)
                 }
             }
+        },
+        mounted() {
+            username = localStorage.getItem("name")
         }
     }
 </script>
