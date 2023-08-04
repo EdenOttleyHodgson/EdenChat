@@ -8,7 +8,9 @@
         },
         methods: {
             sendMessage(){
-                this.$emit('messageSent', this.currentMessage)
+                if(this.currentMessage != '') {
+                    this.$emit('messageSent', this.currentMessage)
+                }
             }
         }
     }
